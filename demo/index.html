@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    >
+    <link rel="stylesheet" type="text/css" href="demo-style.css">
+    <script
+      src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"
+    ></script>
+    <script type="module" src="../dd-poly.js"></script>
+    <title>dd-poly: Demonstration</title>
+  </head>
+  <body>
+    <main>
+      <section title="page heading">
+        <p class="big tight center">
+          The <code>dd-poly</code> Web Component:<br>An Accessible Custom Element for Dropdown Selection
+        </p>
+        <p class="medium tight center">Jonathan Pool</p>
+        <p class="center">Revised 25 May 2018</p>
+      </section>
+      <section title="introduction">
+        <h1>Introduction</h1>
+        <p>This page demonstrates a prototype of the <code>dd-poly</code> web component. This is the second prototype described in the <a href="../../report/report.html">accompanying report</a>.</p>
+        <p>If you don’t see a dropdown selector below under “Demonstration”, please review the access instructions in the report.</p>
+      </section>
+      <section title="demonstration">
+        <h1>Demonstration</h1>
+        <dd-poly></dd-poly>
+      </section>
+      <section title="how to use">
+        <h1>How to use</h1>
+        <p>To run the demonstration on the 3 list types supported by <code>dd-poly</code>, duplicate <code>listSpecs-links.js</code>, <code>listSpecs-single.js</code>, or <code>listSpecs-multi.js</code> in the <code>dd-poly</code> directory and change the name of the duplicate to <code>listSpecs.js</code>, replacing the existing file of that name. You may also amend or replace the contents of the file if you maintain the format.</p>
+        <p>The handling of pointer (mouse) navigation in this version is incomplete, so some pointer actions can create keyboard traps.</p>
+        <p>Activating the commit button with the single and multi list types does nothing except disable the button until a selection change occurs.</p>
+      </section>
+    </main>
+  </body>
+</html>
