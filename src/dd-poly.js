@@ -392,7 +392,20 @@ const makeCommitListener = form => {
 }
 /**
  * `dd-poly`
- * Dropdown selector with navigation-selection separation.
+ * Dropdown selector with accessibility features.
+ * ## Features
+ * This is a custom HTML element. It is a dropdown selector. You can use it for
+ * a navigation menu, a list that the user selects 1 item from, or a list that
+ * the user selects any number of items from.
+ * For feature details, see https://github.com/jrpool/dd-poly.
+ ## Usage
+ * Create a file named `listSpecs.js` in the same directory as the page that
+ * you want to use this dropdown in. Format that file according to the format
+ * of the file in https://github.com/jrpool/dd-poly/tree/master/demo/listSpecs
+ * that corresponds to your list type (links, single, or multi). The `maxView`
+ * property represents the maximum number of list items that will be viewable
+ * at once, or, if 0, indicates that all items can be viewed at once.
+ * For more details, see https://github.com/jrpool/dd-poly.
  * @customElement
  * @polymer
  * @demo demo/index.html

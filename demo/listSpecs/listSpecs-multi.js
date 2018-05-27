@@ -2,7 +2,7 @@ export const specs = {
   type: 'multi',
   legend: 'Select all the continents you want to learn about.',
   maxView: 0,
-  name: 'conts',
+  name: 'continents',
   list: [
     [
       'af',
