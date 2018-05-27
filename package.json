@@ -2,8 +2,7 @@
   "name": "dd-poly",
   "version": "1.0.0",
   "description": "web component providing a custom dropdown selector element with accessibility features",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "dropdown",
     "drop-down",
