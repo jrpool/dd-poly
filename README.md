@@ -37,7 +37,7 @@ The following accessibility and usability features distinguish `dd-poly` from th
 
 ## Demonstrating `dd-poly`
 
-If you wish to experience a demonstration of `dd-poly` in a sample web page, you can do so within the Polymer 3 `polymer-cli` environment. To do this:
+To experience `dd-poly` in a sample web page within the Polymer 3 `polymer-cli` environment:
 
 - Ensure that you have installed [Node.js](https://nodejs.org), [Polymer CLI](https://www.npmjs.com/package/polymer-cli), and this `dd-poly` package.
 - Launch a command-line terminal interface and make the `dd-poly` directory your working directory.
@@ -57,7 +57,7 @@ xxx
 
 ## Related work
 
-Several web components exist that provide dropdown-selector custom elements with various aesthetic and behavioral themes. Some of them, such as [`paper-dropdown`](https://www.webcomponents.org/element/pushkar8723/paper-dropdown), have some of the above-listed accessibility features.
+Other web components provide dropdown-selector custom elements with various aesthetic and behavioral themes. Some of them, such as [`paper-dropdown`](https://www.webcomponents.org/element/pushkar8723/paper-dropdown), have some of the above-listed accessibility features.
 
 ## Contributing
 
