@@ -1,6 +1,6 @@
 {
   "name": "dd-poly",
-  "description": "dropdown selector with navigation-selection separation",
+  "description": "web component providing a custom dropdown selector element with accessibility features",
   "main": "dd-poly.js",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
