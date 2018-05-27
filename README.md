@@ -55,6 +55,10 @@ xxx
 
 xxx
 
+## Related work
+
+Several web components exist that provide dropdown-selector custom elements with various aesthetic and behavioral themes. Some of them, such as [`paper-dropdown`](https://www.webcomponents.org/element/pushkar8723/paper-dropdown), have some of the above-listed accessibility features.
+
 ## Contributing
 
 xxx
