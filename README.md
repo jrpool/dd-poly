@@ -61,4 +61,6 @@ Other web components provide dropdown-selector custom elements with various aest
 
 ## Contributing
 
-xxx
+### Testing
+
+Attempts to perform tests have not yet succeeded. There is a reported incompatibility between Polymer and Node 10, but reverting to Node 9.2 has resulted in errors not yet understood.

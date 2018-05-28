@@ -1,5 +1,5 @@
-import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-import {specs} from './listSpecs';
+import {html, PolymerElement} from '../node_modules/@polymer/polymer/polymer-element.js';
+import {specs} from './listSpecs.js';
 let disableCommit,
   enableCommit,
   filter,
@@ -319,12 +319,15 @@ const makeKeyListener = (cE, form) => {
     }
   });
 };
-/*
-  Define a query handler making each “li” element of the form eligible for
-  viewing iff the query string is a case-insensitive substring of the
-  element’s text content. Whether it becomes viewable depends on the central
-  “li” element and the size of the maximum viewable sublist.
-*/
+/**
+ * Define a query handler making each “li” element of the form eligible for
+ * viewing iff the query string is a case-insensitive substring of the
+ * element’s text content. Whether it becomes viewable depends on the central
+ * “li” element and the size of the maximum viewable sublist.
+ * @param {cE} element The `dd-poly` custom element.
+ * @param {maxView} string The `specs.maxView` property’s value, an integer,
+ *   as a string.
+ */
 const makeQueryHandler = (cE, maxView) => {
   filter = (form, query) => {
     const queryLowerCase = query.toLowerCase();
@@ -470,14 +473,17 @@ export class DdPoly extends PolymerElement {
   }
   static get properties() {
     return {
+      /** HTML legend element text for the dropdown selector */
       legend: {
         type: String,
         value: specs.legend
       },
+      /** HTML label element text for the query text input field */
       queryPrompt: {
         type: String,
         value: 'Show only items containing:'
       },
+      /** Set of HTML li elements containing the list items */
       list: {
         type: String,
         value: htmlList

@@ -607,28 +607,7 @@
         {
           "name": "legend",
           "type": "string | null | undefined",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 472,
-              "column": 6
-            },
-            "end": {
-              "line": 475,
-              "column": 7
-            }
-          },
-          "metadata": {
-            "polymer": {
-              "attributeType": "String"
-            }
-          }
-        },
-        {
-          "name": "queryPrompt",
-          "type": "string | null | undefined",
-          "description": "",
+          "description": "HTML legend element text for the dropdown selector",
           "privacy": "public",
           "sourceRange": {
             "start": {
@@ -644,21 +623,42 @@
             "polymer": {
               "attributeType": "String"
             }
+          }
+        },
+        {
+          "name": "queryPrompt",
+          "type": "string | null | undefined",
+          "description": "HTML label element text for the query text input field",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 481,
+              "column": 6
+            },
+            "end": {
+              "line": 484,
+              "column": 7
+            }
+          },
+          "metadata": {
+            "polymer": {
+              "attributeType": "String"
+            }
           },
           "defaultValue": "\"Show only items containing:\""
         },
         {
           "name": "list",
           "type": "string | null | undefined",
-          "description": "",
+          "description": "Set of HTML li elements containing the list items",
           "privacy": "public",
           "sourceRange": {
             "start": {
-              "line": 480,
+              "line": 486,
               "column": 6
             },
             "end": {
-              "line": 483,
+              "line": 489,
               "column": 7
             }
           },
@@ -3792,11 +3792,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 412,
+          "line": 415,
           "column": 7
         },
         "end": {
-          "line": 495,
+          "line": 501,
           "column": 1
         }
       },
@@ -3806,23 +3806,7 @@
       "attributes": [
         {
           "name": "legend",
-          "description": "",
-          "sourceRange": {
-            "start": {
-              "line": 472,
-              "column": 6
-            },
-            "end": {
-              "line": 475,
-              "column": 7
-            }
-          },
-          "metadata": {},
-          "type": "string | null | undefined"
-        },
-        {
-          "name": "query-prompt",
-          "description": "",
+          "description": "HTML legend element text for the dropdown selector",
           "sourceRange": {
             "start": {
               "line": 476,
@@ -3837,15 +3821,31 @@
           "type": "string | null | undefined"
         },
         {
-          "name": "list",
-          "description": "",
+          "name": "query-prompt",
+          "description": "HTML label element text for the query text input field",
           "sourceRange": {
             "start": {
-              "line": 480,
+              "line": 481,
               "column": 6
             },
             "end": {
-              "line": 483,
+              "line": 484,
+              "column": 7
+            }
+          },
+          "metadata": {},
+          "type": "string | null | undefined"
+        },
+        {
+          "name": "list",
+          "description": "Set of HTML li elements containing the list items",
+          "sourceRange": {
+            "start": {
+              "line": 486,
+              "column": 6
+            },
+            "end": {
+              "line": 489,
               "column": 7
             }
           },
